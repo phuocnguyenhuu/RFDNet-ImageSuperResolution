@@ -11,7 +11,7 @@ from tensorflow.keras.preprocessing import image_dataset_from_directory
 
 from utils import *
 
-
+# ANDY CODE
 dataset_url = "http://www.eecs.berkeley.edu/Research/Projects/CS/vision/grouping/BSR/BSR_bsds500.tgz"
 data_dir = keras.utils.get_file(origin=dataset_url, fname="BSR", untar=True)
 root_dir = os.path.join(data_dir, "BSDS500/data")
